@@ -158,7 +158,7 @@ body m =
         [ Background.color white
         , width fill
         , centerX
-        , Font.family [ Font.typeface "Fira" ]
+        , Font.family [ Font.typeface "Fira Sans" ]
         , inFront (header m)
         ]
         (site m)
