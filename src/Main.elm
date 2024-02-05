@@ -279,7 +279,7 @@ header m =
         ]
         [ column
             [ Font.size 64
-            , Font.family [ Font.typeface "Tangerine", Font.serif ]
+            , Font.family [ Font.typeface "Oswald", Font.serif ]
             , Font.color jet
             , Font.extraBold
             , Font.glow jet 4.6
@@ -340,7 +340,7 @@ top h m =
         ]
         [ paragraph
             [ Font.size 28
-            , Font.family [ Font.typeface "Tangerine" ]
+            , Font.family [ Font.typeface "Oswald" ]
             , Font.color jet
             , Font.extraBold
             , Font.glow jet 2.6
@@ -403,7 +403,7 @@ teasedArticle i (Article a) =
         [ image [ width (fill |> minimum 120 |> maximum 300), centerX ] { src = a.image, description = "Horse" }
         , el
             [ alignLeft
-            , Font.family [ Font.typeface "Tangerine" ]
+            , Font.family [ Font.typeface "Oswald" ]
             , Font.size 18
             , Font.color wheat
             , Font.bold
@@ -444,7 +444,7 @@ article (Article a) =
          , el
             [ padding 20
             , alignLeft
-            , Font.family [ Font.typeface "Tangerine" ]
+            , Font.family [ Font.typeface "Oswald" ]
             , Font.size 18
             , Font.color wheat
             , Font.bold
