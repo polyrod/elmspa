@@ -278,7 +278,7 @@ header m =
         , Background.color red
         ]
         [ column
-            [ Font.size 64
+            [ Font.size 32
             , Font.family [ Font.typeface "Oswald", Font.serif ]
             , Font.color jet
             , Font.extraBold

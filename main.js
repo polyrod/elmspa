@@ -11963,7 +11963,7 @@ var $author$project$Main$header = function (m) {
 				$mdgriffith$elm_ui$Element$column,
 				_List_fromArray(
 					[
-						$mdgriffith$elm_ui$Element$Font$size(64),
+						$mdgriffith$elm_ui$Element$Font$size(32),
 						$mdgriffith$elm_ui$Element$Font$family(
 						_List_fromArray(
 							[
