@@ -11967,7 +11967,7 @@ var $author$project$Main$header = function (m) {
 						$mdgriffith$elm_ui$Element$Font$family(
 						_List_fromArray(
 							[
-								$mdgriffith$elm_ui$Element$Font$typeface('Tangerine'),
+								$mdgriffith$elm_ui$Element$Font$typeface('Oswald'),
 								$mdgriffith$elm_ui$Element$Font$serif
 							])),
 						$mdgriffith$elm_ui$Element$Font$color($author$project$Main$jet),
@@ -12445,7 +12445,7 @@ var $author$project$Main$article = function (_v0) {
 							$mdgriffith$elm_ui$Element$Font$family(
 							_List_fromArray(
 								[
-									$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+									$mdgriffith$elm_ui$Element$Font$typeface('Oswald')
 								])),
 							$mdgriffith$elm_ui$Element$Font$size(18),
 							$mdgriffith$elm_ui$Element$Font$color($author$project$Main$wheat),
@@ -12694,7 +12694,7 @@ var $author$project$Main$teasedArticle = F2(
 							$mdgriffith$elm_ui$Element$Font$family(
 							_List_fromArray(
 								[
-									$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+									$mdgriffith$elm_ui$Element$Font$typeface('Oswald')
 								])),
 							$mdgriffith$elm_ui$Element$Font$size(18),
 							$mdgriffith$elm_ui$Element$Font$color($author$project$Main$wheat),
@@ -12920,7 +12920,7 @@ var $author$project$Main$top = F2(
 							$mdgriffith$elm_ui$Element$Font$family(
 							_List_fromArray(
 								[
-									$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+									$mdgriffith$elm_ui$Element$Font$typeface('Oswald')
 								])),
 							$mdgriffith$elm_ui$Element$Font$color($author$project$Main$jet),
 							$mdgriffith$elm_ui$Element$Font$extraBold,
