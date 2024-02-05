@@ -11941,6 +11941,8 @@ var $mdgriffith$elm_ui$Element$padding = function (x) {
 			f));
 };
 var $author$project$Main$red = A3($mdgriffith$elm_ui$Element$rgb255, 218, 41, 28);
+var $mdgriffith$elm_ui$Internal$Model$Serif = {$: 'Serif'};
+var $mdgriffith$elm_ui$Element$Font$serif = $mdgriffith$elm_ui$Internal$Model$Serif;
 var $mdgriffith$elm_ui$Internal$Model$Typeface = function (a) {
 	return {$: 'Typeface', a: a};
 };
@@ -11965,7 +11967,8 @@ var $author$project$Main$header = function (m) {
 						$mdgriffith$elm_ui$Element$Font$family(
 						_List_fromArray(
 							[
-								$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+								$mdgriffith$elm_ui$Element$Font$typeface('Tangerine'),
+								$mdgriffith$elm_ui$Element$Font$serif
 							])),
 						$mdgriffith$elm_ui$Element$Font$color($author$project$Main$jet),
 						$mdgriffith$elm_ui$Element$Font$extraBold,
@@ -12201,6 +12204,7 @@ var $mdgriffith$elm_ui$Element$layoutWith = F3(
 	});
 var $mdgriffith$elm_ui$Element$layout = $mdgriffith$elm_ui$Element$layoutWith(
 	{options: _List_Nil});
+var $mdgriffith$elm_ui$Element$Font$sansSerif = $mdgriffith$elm_ui$Internal$Model$SansSerif;
 var $mdgriffith$elm_ui$Internal$Model$Left = {$: 'Left'};
 var $mdgriffith$elm_ui$Element$alignLeft = $mdgriffith$elm_ui$Internal$Model$AlignX($mdgriffith$elm_ui$Internal$Model$Left);
 var $mdgriffith$elm_ui$Element$Font$bold = A2($mdgriffith$elm_ui$Internal$Model$Class, $mdgriffith$elm_ui$Internal$Flag$fontWeight, $mdgriffith$elm_ui$Internal$Style$classes.bold);
@@ -13504,7 +13508,8 @@ var $author$project$Main$body = function (m) {
 					$mdgriffith$elm_ui$Element$Font$family(
 					_List_fromArray(
 						[
-							$mdgriffith$elm_ui$Element$Font$typeface('Fira Sans')
+							$mdgriffith$elm_ui$Element$Font$typeface('Fira'),
+							$mdgriffith$elm_ui$Element$Font$sansSerif
 						])),
 					$mdgriffith$elm_ui$Element$inFront(
 					$author$project$Main$header(m))

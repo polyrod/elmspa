@@ -158,7 +158,7 @@ body m =
         [ Background.color white
         , width fill
         , centerX
-        , Font.family [ Font.typeface "Fira Sans" ]
+        , Font.family [ Font.typeface "Fira", Font.sansSerif ]
         , inFront (header m)
         ]
         (site m)
@@ -279,7 +279,7 @@ header m =
         ]
         [ column
             [ Font.size 64
-            , Font.family [ Font.typeface "Tangerine" ]
+            , Font.family [ Font.typeface "Tangerine", Font.serif ]
             , Font.color jet
             , Font.extraBold
             , Font.glow jet 4.6
