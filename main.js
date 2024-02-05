@@ -11941,6 +11941,10 @@ var $mdgriffith$elm_ui$Element$padding = function (x) {
 			f));
 };
 var $author$project$Main$red = A3($mdgriffith$elm_ui$Element$rgb255, 218, 41, 28);
+var $mdgriffith$elm_ui$Internal$Model$Typeface = function (a) {
+	return {$: 'Typeface', a: a};
+};
+var $mdgriffith$elm_ui$Element$Font$typeface = $mdgriffith$elm_ui$Internal$Model$Typeface;
 var $author$project$Main$header = function (m) {
 	return A2(
 		$mdgriffith$elm_ui$Element$row,
@@ -11958,6 +11962,11 @@ var $author$project$Main$header = function (m) {
 				_List_fromArray(
 					[
 						$mdgriffith$elm_ui$Element$Font$size(64),
+						$mdgriffith$elm_ui$Element$Font$family(
+						_List_fromArray(
+							[
+								$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+							])),
 						$mdgriffith$elm_ui$Element$Font$color($author$project$Main$jet),
 						$mdgriffith$elm_ui$Element$Font$extraBold,
 						A2($mdgriffith$elm_ui$Element$Font$glow, $author$project$Main$jet, 4.6),
@@ -12132,9 +12141,6 @@ var $mdgriffith$elm_ui$Internal$Model$renderRoot = F3(
 						[child]))));
 	});
 var $mdgriffith$elm_ui$Internal$Model$SansSerif = {$: 'SansSerif'};
-var $mdgriffith$elm_ui$Internal$Model$Typeface = function (a) {
-	return {$: 'Typeface', a: a};
-};
 var $mdgriffith$elm_ui$Internal$Model$rootStyle = function () {
 	var families = _List_fromArray(
 		[
@@ -12432,6 +12438,11 @@ var $author$project$Main$article = function (_v0) {
 						[
 							$mdgriffith$elm_ui$Element$padding(20),
 							$mdgriffith$elm_ui$Element$alignLeft,
+							$mdgriffith$elm_ui$Element$Font$family(
+							_List_fromArray(
+								[
+									$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+								])),
 							$mdgriffith$elm_ui$Element$Font$size(18),
 							$mdgriffith$elm_ui$Element$Font$color($author$project$Main$wheat),
 							$mdgriffith$elm_ui$Element$Font$bold,
@@ -12676,6 +12687,11 @@ var $author$project$Main$teasedArticle = F2(
 					_List_fromArray(
 						[
 							$mdgriffith$elm_ui$Element$alignLeft,
+							$mdgriffith$elm_ui$Element$Font$family(
+							_List_fromArray(
+								[
+									$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+								])),
 							$mdgriffith$elm_ui$Element$Font$size(18),
 							$mdgriffith$elm_ui$Element$Font$color($author$project$Main$wheat),
 							$mdgriffith$elm_ui$Element$Font$bold,
@@ -12897,6 +12913,11 @@ var $author$project$Main$top = F2(
 					_List_fromArray(
 						[
 							$mdgriffith$elm_ui$Element$Font$size(28),
+							$mdgriffith$elm_ui$Element$Font$family(
+							_List_fromArray(
+								[
+									$mdgriffith$elm_ui$Element$Font$typeface('Tangerine')
+								])),
 							$mdgriffith$elm_ui$Element$Font$color($author$project$Main$jet),
 							$mdgriffith$elm_ui$Element$Font$extraBold,
 							A2($mdgriffith$elm_ui$Element$Font$glow, $author$project$Main$jet, 2.6)
@@ -13469,7 +13490,6 @@ var $author$project$Main$site = function (m) {
 							]))
 					]))));
 };
-var $mdgriffith$elm_ui$Element$Font$typeface = $mdgriffith$elm_ui$Internal$Model$Typeface;
 var $author$project$Main$white = A3($mdgriffith$elm_ui$Element$rgb255, 255, 255, 255);
 var $author$project$Main$body = function (m) {
 	return _List_fromArray(
