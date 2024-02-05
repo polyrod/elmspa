@@ -13504,7 +13504,7 @@ var $author$project$Main$body = function (m) {
 					$mdgriffith$elm_ui$Element$Font$family(
 					_List_fromArray(
 						[
-							$mdgriffith$elm_ui$Element$Font$typeface('Fira')
+							$mdgriffith$elm_ui$Element$Font$typeface('Fira Sans')
 						])),
 					$mdgriffith$elm_ui$Element$inFront(
 					$author$project$Main$header(m))
