@@ -6000,33 +6000,31 @@ var $elm$url$Url$Parser$slash = F2(
 					parseBefore(state));
 			});
 	});
-var $elm$url$Url$Parser$top = $elm$url$Url$Parser$Parser(
-	function (state) {
-		return _List_fromArray(
-			[state]);
-	});
 var $author$project$Main$route = $elm$url$Url$Parser$oneOf(
 	_List_fromArray(
 		[
-			A2($elm$url$Url$Parser$map, $author$project$Main$Home, $elm$url$Url$Parser$top),
+			A2(
+			$elm$url$Url$Parser$map,
+			$author$project$Main$Home,
+			$elm$url$Url$Parser$s('elmspa/')),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$About,
-			$elm$url$Url$Parser$s('about')),
+			$elm$url$Url$Parser$s('elmspa/about')),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Impressum,
-			$elm$url$Url$Parser$s('impressum')),
+			$elm$url$Url$Parser$s('elmspa/impressum')),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Contact,
-			$elm$url$Url$Parser$s('contact')),
+			$elm$url$Url$Parser$s('elmspa/contact')),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Post,
 			A2(
 				$elm$url$Url$Parser$slash,
-				$elm$url$Url$Parser$s('article'),
+				$elm$url$Url$Parser$s('elmspa/article'),
 				$elm$url$Url$Parser$int))
 		]));
 var $elm$core$Maybe$withDefault = F2(
@@ -11898,28 +11896,28 @@ var $author$project$Main$menu = A2(
 			_List_Nil,
 			{
 				label: $mdgriffith$elm_ui$Element$text('Home'),
-				url: '/'
+				url: '/elmspa/'
 			}),
 			A2(
 			$mdgriffith$elm_ui$Element$link,
 			_List_Nil,
 			{
 				label: $mdgriffith$elm_ui$Element$text('About'),
-				url: '/about'
+				url: '/elmspa/about'
 			}),
 			A2(
 			$mdgriffith$elm_ui$Element$link,
 			_List_Nil,
 			{
 				label: $mdgriffith$elm_ui$Element$text('Impressum'),
-				url: '/impressum'
+				url: '/elmspa/impressum'
 			}),
 			A2(
 			$mdgriffith$elm_ui$Element$link,
 			_List_Nil,
 			{
 				label: $mdgriffith$elm_ui$Element$text('Contact'),
-				url: '/contact'
+				url: '/elmspa/contact'
 			})
 		]));
 var $mdgriffith$elm_ui$Internal$Model$PaddingStyle = F5(

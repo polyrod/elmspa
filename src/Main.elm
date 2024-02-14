@@ -29,11 +29,11 @@ type Route
 route : Parser (Route -> a) a
 route =
     oneOf
-        [ Url.Parser.map Home Url.Parser.top
-        , Url.Parser.map About (s "about")
-        , Url.Parser.map Impressum (s "impressum")
-        , Url.Parser.map Contact (s "contact")
-        , Url.Parser.map Post (s "article" </> int)
+        [ Url.Parser.map Home (s "elmspa/")
+        , Url.Parser.map About (s "elmspa/about")
+        , Url.Parser.map Impressum (s "elmspa/impressum")
+        , Url.Parser.map Contact (s "elmspa/contact")
+        , Url.Parser.map Post (s "elmspa/article" </> int)
         ]
 
 
@@ -303,13 +303,13 @@ menu =
         , Font.glow jet 2.6
         ]
         [ link []
-            { url = "/", label = text "Home" }
+            { url = "/elmspa/", label = text "Home" }
         , link []
-            { url = "/about", label = text "About" }
+            { url = "/elmspa/about", label = text "About" }
         , link []
-            { url = "/impressum", label = text "Impressum" }
+            { url = "/elmspa/impressum", label = text "Impressum" }
         , link []
-            { url = "/contact", label = text "Contact" }
+            { url = "/elmspa/contact", label = text "Contact" }
         ]
 
 
