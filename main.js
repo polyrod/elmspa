@@ -5219,7 +5219,7 @@ var $author$project$Main$init = F3(
 	function (_v0, u, k) {
 		return _Utils_Tuple2(
 			{key: k, route: $author$project$Main$Home, url: u},
-			A2($elm$browser$Browser$Navigation$pushUrl, k, '/'));
+			A2($elm$browser$Browser$Navigation$pushUrl, k, '/elmspa/'));
 	});
 var $author$project$Main$Page = function (a) {
 	return {$: 'Page', a: a};
