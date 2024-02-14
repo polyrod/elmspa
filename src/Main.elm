@@ -69,7 +69,7 @@ main =
 
 init : flags -> Url -> Key -> ( Model, Cmd msg )
 init _ u k =
-    ( { key = k, url = u, route = Home }, pushUrl k "/" )
+    ( { key = k, url = u, route = Home }, pushUrl k "/elmspa/" )
 
 
 subs : Model -> Sub msg
