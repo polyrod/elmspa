@@ -12744,7 +12744,7 @@ var $author$project$Main$teasedArticle = F2(
 						]),
 					{
 						label: $mdgriffith$elm_ui$Element$text('read more'),
-						url: '/article/' + $elm$core$String$fromInt(i)
+						url: 'elmspa/article/' + $elm$core$String$fromInt(i)
 					})
 				]));
 	});
