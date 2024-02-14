@@ -417,7 +417,7 @@ teasedArticle i (Article a) =
             , Font.color powderblue
             , Font.glow powderblue 2.6
             ]
-            { url = "/article/" ++ String.fromInt i, label = text "read more" }
+            { url = "elmspa/article/" ++ String.fromInt i, label = text "read more" }
         ]
 
 
