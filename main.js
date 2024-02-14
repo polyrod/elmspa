@@ -6006,26 +6006,38 @@ var $author$project$Main$route = $elm$url$Url$Parser$oneOf(
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Home,
-			$elm$url$Url$Parser$s('elmspa/')),
+			$elm$url$Url$Parser$s('elmspa')),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$About,
-			$elm$url$Url$Parser$s('elmspa/about')),
+			A2(
+				$elm$url$Url$Parser$slash,
+				$elm$url$Url$Parser$s('elmspa'),
+				$elm$url$Url$Parser$s('about'))),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Impressum,
-			$elm$url$Url$Parser$s('elmspa/impressum')),
+			A2(
+				$elm$url$Url$Parser$slash,
+				$elm$url$Url$Parser$s('elmspa'),
+				$elm$url$Url$Parser$s('impressum'))),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Contact,
-			$elm$url$Url$Parser$s('elmspa/contact')),
+			A2(
+				$elm$url$Url$Parser$slash,
+				$elm$url$Url$Parser$s('elmspa'),
+				$elm$url$Url$Parser$s('contact'))),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Main$Post,
 			A2(
 				$elm$url$Url$Parser$slash,
-				$elm$url$Url$Parser$s('elmspa/article'),
-				$elm$url$Url$Parser$int))
+				$elm$url$Url$Parser$s('elmspa'),
+				A2(
+					$elm$url$Url$Parser$slash,
+					$elm$url$Url$Parser$s('article'),
+					$elm$url$Url$Parser$int)))
 		]));
 var $elm$core$Maybe$withDefault = F2(
 	function (_default, maybe) {

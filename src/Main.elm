@@ -29,11 +29,11 @@ type Route
 route : Parser (Route -> a) a
 route =
     oneOf
-        [ Url.Parser.map Home (s "elmspa/")
-        , Url.Parser.map About (s "elmspa/about")
-        , Url.Parser.map Impressum (s "elmspa/impressum")
-        , Url.Parser.map Contact (s "elmspa/contact")
-        , Url.Parser.map Post (s "elmspa/article" </> int)
+        [ Url.Parser.map Home (s "elmspa")
+        , Url.Parser.map About (s "elmspa" </> s "about")
+        , Url.Parser.map Impressum (s "elmspa" </> s "impressum")
+        , Url.Parser.map Contact (s "elmspa" </> s "contact")
+        , Url.Parser.map Post (s "elmspa" </> s "article" </> int)
         ]
 
 
